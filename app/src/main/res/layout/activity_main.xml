@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/blue">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_weight="1"
+            android:background="@color/dark_blue"
+            android:padding="20dp"
+            >
+            <ImageView
+                android:layout_below="@id/cariSurah"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/logoputih"></ImageView>
+            <TextView
+                android:id="@+id/dquran"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D ' Quran"
+                android:fontFamily="@font/ps_b"
+                android:textColor="@color/white"
+                android:textSize="20sp"/>
+            <TextView
+                android:layout_below="@id/dquran"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Al - Quran dan Terjemahan"
+                android:fontFamily="@font/ps_r"
+                android:textColor="@color/white"
+                android:textSize="14sp"/>
+            <android.widget.SearchView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/cariSurah"
+                android:background="@drawable/rounded"
+                android:backgroundTint="@color/white"
+                android:layout_alignParentRight="true"
+                >
+            </android.widget.SearchView>
+        </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/rounded_atas"
+        android:backgroundTint="@color/white"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:id="@+id/surah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daftar Surah"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:fontFamily="@font/ps_b"
+            android:textColor="@color/dark_blue"
+            ></TextView>
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_margin="20dp"
+            android:id="@+id/recyclerViewSurah"
+            android:layout_below="@id/surah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:scrollbars="vertical"
+            tools:listitem="@layout/fragment_surah" />
+
+    </RelativeLayout>
+
+</LinearLayout>
