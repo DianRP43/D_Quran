@@ -14,6 +14,7 @@ import org.sufficientlysecure.htmltextview.HtmlTextView;
 import java.util.ArrayList;
 import java.util.List;
 
+// {10118043, Dian Rosa Pratama, AKB}
 public class AdapterAyat extends  RecyclerView.Adapter<AdapterAyat.ViewHolder> {
     private List<ModelAyat.ResultAyat> SubjectAyat;
     private Context context;
