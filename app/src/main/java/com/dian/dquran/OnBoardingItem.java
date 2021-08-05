@@ -1,4 +1,4 @@
-package com.example.cobaquran;
+package com.dian.dquran;
 
 public class OnBoardingItem {
     private int image;

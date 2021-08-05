@@ -1,7 +1,6 @@
-package com.example.cobaquran.retrofit;
+package com.dian.dquran.retrofit;
 
-import com.example.cobaquran.MainModel;
-import com.example.cobaquran.ModelAyat;
+import com.dian.dquran.ModelAyat;
 
 import java.util.List;
 

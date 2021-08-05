@@ -1,4 +1,4 @@
-package com.example.cobaquran;
+package com.dian.dquran;
 
 
 import java.util.List;

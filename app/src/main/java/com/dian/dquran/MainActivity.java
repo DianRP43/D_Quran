@@ -1,7 +1,6 @@
-package com.example.cobaquran;
+package com.dian.dquran;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -12,7 +11,7 @@ import android.util.Log;
 import android.widget.LinearLayout;
 import android.widget.SearchView;
 
-import com.example.cobaquran.retrofit.ApiService;
+import com.dian.dquran.retrofit.ApiService;
 
 import java.util.ArrayList;
 import java.util.List;

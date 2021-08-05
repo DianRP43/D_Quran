@@ -1,6 +1,5 @@
-package com.example.cobaquran;
+package com.dian.dquran;
 
-import androidx.activity.OnBackPressedCallback;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -11,19 +10,15 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Adapter;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.SearchView;
 import android.widget.TextView;
 
-import com.example.cobaquran.retrofit.ApiService;
+import com.dian.dquran.retrofit.ApiService;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import javax.security.auth.Subject;
 
 import retrofit2.Call;
 import retrofit2.Callback;

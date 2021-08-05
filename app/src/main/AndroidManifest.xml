@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.cobaquran">
+    package="com.dian.dquran">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -11,18 +11,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CobaQuran">
-        <activity android:name=".viewpager" />
-        <activity android:name=".splashscreen_activty">
+        <activity android:name="com.dian.dquran.viewpager" />
+        <activity android:name="com.dian.dquran.splashscreen_activty">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".fragment_ayat" />
-        <activity android:name=".ayat_activity" />
-        <activity android:name=".fragment_item" />
-        <activity android:name=".MainActivity" />
+        <activity android:name="com.dian.dquran.fragment_ayat" />
+        <activity android:name="com.dian.dquran.ayat_activity" />
+        <activity android:name="com.dian.dquran.fragment_item" />
+        <activity android:name="com.dian.dquran.MainActivity" />
     </application>
 
 </manifest>

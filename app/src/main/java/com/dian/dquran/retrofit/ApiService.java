@@ -1,4 +1,4 @@
-package com.example.cobaquran.retrofit;
+package com.dian.dquran.retrofit;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
